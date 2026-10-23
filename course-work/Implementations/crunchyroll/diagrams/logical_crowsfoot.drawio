@@ -1,277 +1,277 @@
 <mxfile host="Electron">
   <diagram name="Logical model (Crow&#39;s Foot)" id="Logical_model_(Crow&#39;s_Foot)">
-    <mxGraphModel dx="1290" dy="849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1414" dy="849" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="c2" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#E1D5E7;strokeColor=#9673A6;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=0;marginBottom=0;html=1;fontSize=13;" value="Subscription Plan" vertex="1">
           <mxGeometry height="194" width="300" as="geometry" />
         </mxCell>
-        <mxCell id="c3" parent="c2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;fontStyle=5;" value="PK&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;PlanID : INT NN" vertex="1">
+        <mxCell id="c3" parent="c2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;fontStyle=5;" value="PK&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;PlanID&amp;nbsp;" vertex="1">
           <mxGeometry height="24" width="300" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="c4" parent="c2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Name : NVARCHAR(50) NN" vertex="1">
+        <mxCell id="c4" parent="c2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Name" vertex="1">
           <mxGeometry height="24" width="300" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="c5" parent="c2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Monthly Price : DECIMAL(6,2) NN" vertex="1">
+        <mxCell id="c5" parent="c2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Monthly Price&amp;nbsp;" vertex="1">
           <mxGeometry height="24" width="300" y="74" as="geometry" />
         </mxCell>
-        <mxCell id="c6" parent="c2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Max Streams : TINYINT NN" vertex="1">
+        <mxCell id="c6" parent="c2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Max Streams" vertex="1">
           <mxGeometry height="24" width="300" y="98" as="geometry" />
         </mxCell>
-        <mxCell id="c7" parent="c2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Offline Viewing : BIT NN" vertex="1">
+        <mxCell id="c7" parent="c2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Offline Viewing" vertex="1">
           <mxGeometry height="24" width="300" y="122" as="geometry" />
         </mxCell>
-        <mxCell id="c8" parent="c2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ad Free : BIT NN" vertex="1">
+        <mxCell id="c8" parent="c2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ad Free&amp;nbsp;" vertex="1">
           <mxGeometry height="24" width="300" y="146" as="geometry" />
         </mxCell>
-        <mxCell id="c9" parent="c2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Premium Access : BIT NN" vertex="1">
+        <mxCell id="c9" parent="c2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Premium Access" vertex="1">
           <mxGeometry height="24" width="300" y="170" as="geometry" />
         </mxCell>
         <mxCell id="c10" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#E1D5E7;strokeColor=#9673A6;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=0;marginBottom=0;html=1;fontSize=13;" value="Subscription" vertex="1">
           <mxGeometry height="194" width="300" x="380" as="geometry" />
         </mxCell>
-        <mxCell id="c11" parent="c10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;fontStyle=5;" value="PK&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SubscriptionID : INT NN" vertex="1">
+        <mxCell id="c11" parent="c10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;fontStyle=5;" value="PK&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SubscriptionID" vertex="1">
           <mxGeometry height="24" width="300" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="c12" parent="c10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="FK&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;UserID : INT NN" vertex="1">
+        <mxCell id="c12" parent="c10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="FK&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;UserID" vertex="1">
           <mxGeometry height="24" width="300" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="c13" parent="c10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="FK&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;PlanID : INT NN" vertex="1">
+        <mxCell id="c13" parent="c10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="FK&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;PlanID" vertex="1">
           <mxGeometry height="24" width="300" y="74" as="geometry" />
         </mxCell>
-        <mxCell id="c14" parent="c10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Start Date : DATE NN" vertex="1">
+        <mxCell id="c14" parent="c10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Start Date" vertex="1">
           <mxGeometry height="24" width="300" y="98" as="geometry" />
         </mxCell>
-        <mxCell id="c15" parent="c10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;End Date : DATE" vertex="1">
+        <mxCell id="c15" parent="c10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;End Date" vertex="1">
           <mxGeometry height="24" width="300" y="122" as="geometry" />
         </mxCell>
-        <mxCell id="c16" parent="c10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Status : NVARCHAR(20) NN" vertex="1">
+        <mxCell id="c16" parent="c10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Status" vertex="1">
           <mxGeometry height="24" width="300" y="146" as="geometry" />
         </mxCell>
-        <mxCell id="c17" parent="c10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Auto Renew : BIT NN" vertex="1">
+        <mxCell id="c17" parent="c10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Auto Renew" vertex="1">
           <mxGeometry height="24" width="300" y="170" as="geometry" />
         </mxCell>
         <mxCell id="c18" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#E1D5E7;strokeColor=#9673A6;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=0;marginBottom=0;html=1;fontSize=13;" value="Payment" vertex="1">
           <mxGeometry height="170" width="300" x="760" y="12" as="geometry" />
         </mxCell>
-        <mxCell id="c19" parent="c18" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;fontStyle=5;" value="PK&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;PaymentID : INT NN" vertex="1">
+        <mxCell id="c19" parent="c18" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;fontStyle=5;" value="PK&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;PaymentID" vertex="1">
           <mxGeometry height="24" width="300" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="c20" parent="c18" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="FK&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SubscriptionID : INT NN" vertex="1">
+        <mxCell id="c20" parent="c18" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="FK&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SubscriptionID" vertex="1">
           <mxGeometry height="24" width="300" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="c21" parent="c18" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Amount : DECIMAL(8,2) NN" vertex="1">
+        <mxCell id="c21" parent="c18" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Amount" vertex="1">
           <mxGeometry height="24" width="300" y="74" as="geometry" />
         </mxCell>
-        <mxCell id="c22" parent="c18" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Payment Date : DATETIME2(0) NN" vertex="1">
+        <mxCell id="c22" parent="c18" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Payment Date" vertex="1">
           <mxGeometry height="24" width="300" y="98" as="geometry" />
         </mxCell>
-        <mxCell id="c23" parent="c18" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Method : NVARCHAR(20) NN" vertex="1">
+        <mxCell id="c23" parent="c18" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Method" vertex="1">
           <mxGeometry height="24" width="300" y="122" as="geometry" />
         </mxCell>
-        <mxCell id="c24" parent="c18" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Status : NVARCHAR(20) NN" vertex="1">
+        <mxCell id="c24" parent="c18" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Status" vertex="1">
           <mxGeometry height="24" width="300" y="146" as="geometry" />
         </mxCell>
         <mxCell id="c33" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#E1D5E7;strokeColor=#9673A6;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=0;marginBottom=0;html=1;fontSize=13;" value="Country" vertex="1">
           <mxGeometry height="122" width="300" y="378" as="geometry" />
         </mxCell>
-        <mxCell id="c34" parent="c33" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;fontStyle=5;" value="PK&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;CountryID : INT NN" vertex="1">
+        <mxCell id="c34" parent="c33" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;fontStyle=5;" value="PK&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;CountryID" vertex="1">
           <mxGeometry height="24" width="300" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="c35" parent="c33" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Name : NVARCHAR(100) NN" vertex="1">
+        <mxCell id="c35" parent="c33" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Name" vertex="1">
           <mxGeometry height="24" width="300" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="c36" parent="c33" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;ISO Code : CHAR(2) NN" vertex="1">
+        <mxCell id="c36" parent="c33" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;ISO Code" vertex="1">
           <mxGeometry height="24" width="300" y="74" as="geometry" />
         </mxCell>
-        <mxCell id="c37" parent="c33" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Region : NVARCHAR(50) NN" vertex="1">
+        <mxCell id="c37" parent="c33" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Region" vertex="1">
           <mxGeometry height="24" width="300" y="98" as="geometry" />
         </mxCell>
         <mxCell id="c38" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#E1D5E7;strokeColor=#9673A6;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=0;marginBottom=0;html=1;fontSize=13;" value="User" vertex="1">
           <mxGeometry height="218" width="300" x="380" y="330" as="geometry" />
         </mxCell>
-        <mxCell id="c39" parent="c38" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;fontStyle=5;" value="PK&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;UserID : INT NN" vertex="1">
+        <mxCell id="c39" parent="c38" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;fontStyle=5;" value="PK&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;UserID" vertex="1">
           <mxGeometry height="24" width="300" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="c40" parent="c38" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Username : NVARCHAR(50) NN" vertex="1">
+        <mxCell id="c40" parent="c38" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Username" vertex="1">
           <mxGeometry height="24" width="300" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="c41" parent="c38" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Email : NVARCHAR(255) NN" vertex="1">
+        <mxCell id="c41" parent="c38" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Email" vertex="1">
           <mxGeometry height="24" width="300" y="74" as="geometry" />
         </mxCell>
-        <mxCell id="c42" parent="c38" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Password Hash : VARBINARY(64) NN" vertex="1">
+        <mxCell id="c42" parent="c38" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Password Hash" vertex="1">
           <mxGeometry height="24" width="300" y="98" as="geometry" />
         </mxCell>
-        <mxCell id="c43" parent="c38" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Date Of Birth : DATE NN" vertex="1">
+        <mxCell id="c43" parent="c38" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Date Of Birth" vertex="1">
           <mxGeometry height="24" width="300" y="122" as="geometry" />
         </mxCell>
-        <mxCell id="c44" parent="c38" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="FK&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;CountryID : INT NN" vertex="1">
+        <mxCell id="c44" parent="c38" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="FK&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;CountryID" vertex="1">
           <mxGeometry height="24" width="300" y="146" as="geometry" />
         </mxCell>
-        <mxCell id="c45" parent="c38" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Registration Date : DATETIME2(0) NN" vertex="1">
+        <mxCell id="c45" parent="c38" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Registration Date" vertex="1">
           <mxGeometry height="24" width="300" y="170" as="geometry" />
         </mxCell>
-        <mxCell id="c46" parent="c38" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Is Active : BIT NN" vertex="1">
+        <mxCell id="c46" parent="c38" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Is Active" vertex="1">
           <mxGeometry height="24" width="300" y="194" as="geometry" />
         </mxCell>
         <mxCell id="c47" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#E1D5E7;strokeColor=#9673A6;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=0;marginBottom=0;html=1;fontSize=13;" value="Watchlist" vertex="1">
           <mxGeometry height="98" width="300" x="380" y="630" as="geometry" />
         </mxCell>
-        <mxCell id="c48" parent="c47" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;fontStyle=5;" value="PK,FK UserID : INT NN" vertex="1">
+        <mxCell id="c48" parent="c47" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;fontStyle=5;" value="FK UserID" vertex="1">
           <mxGeometry height="24" width="300" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="c49" parent="c47" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;fontStyle=5;" value="PK,FK AnimeID : INT NN" vertex="1">
+        <mxCell id="c49" parent="c47" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;fontStyle=5;" value="FK AnimeID" vertex="1">
           <mxGeometry height="24" width="300" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="c50" parent="c47" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Added At : DATETIME2(0) NN" vertex="1">
+        <mxCell id="c50" parent="c47" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Added At" vertex="1">
           <mxGeometry height="24" width="300" y="74" as="geometry" />
         </mxCell>
         <mxCell id="c51" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#E1D5E7;strokeColor=#9673A6;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=0;marginBottom=0;html=1;fontSize=13;" value="Rating" vertex="1">
           <mxGeometry height="146" width="300" x="770" y="670" as="geometry" />
         </mxCell>
-        <mxCell id="c52" parent="c51" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;fontStyle=5;" value="PK,FK UserID : INT NN" vertex="1">
+        <mxCell id="c52" parent="c51" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;fontStyle=5;" value="FK UserID" vertex="1">
           <mxGeometry height="24" width="300" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="c53" parent="c51" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;fontStyle=5;" value="PK,FK AnimeID : INT NN" vertex="1">
+        <mxCell id="c53" parent="c51" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;fontStyle=5;" value="FK AnimeID" vertex="1">
           <mxGeometry height="24" width="300" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="c54" parent="c51" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Score : TINYINT NN" vertex="1">
+        <mxCell id="c54" parent="c51" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Score" vertex="1">
           <mxGeometry height="24" width="300" y="74" as="geometry" />
         </mxCell>
-        <mxCell id="c55" parent="c51" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Review Text : NVARCHAR(2000)" vertex="1">
+        <mxCell id="c55" parent="c51" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Review Text" vertex="1">
           <mxGeometry height="24" width="300" y="98" as="geometry" />
         </mxCell>
-        <mxCell id="c56" parent="c51" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Rated At : DATETIME2(0) NN" vertex="1">
+        <mxCell id="c56" parent="c51" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Rated At&amp;nbsp;" vertex="1">
           <mxGeometry height="24" width="300" y="122" as="geometry" />
         </mxCell>
         <mxCell id="c57" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#E1D5E7;strokeColor=#9673A6;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=0;marginBottom=0;html=1;fontSize=13;" value="Watch History" vertex="1">
           <mxGeometry height="194" width="300" x="1500" y="342" as="geometry" />
         </mxCell>
-        <mxCell id="c58" parent="c57" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;fontStyle=5;" value="PK&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;WatchID : BIGINT NN" vertex="1">
+        <mxCell id="c58" parent="c57" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;fontStyle=5;" value="PK&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;WatchID" vertex="1">
           <mxGeometry height="24" width="300" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="c59" parent="c57" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="FK&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;UserID : INT NN" vertex="1">
+        <mxCell id="c59" parent="c57" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="FK&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;UserID" vertex="1">
           <mxGeometry height="24" width="300" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="c60" parent="c57" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="FK&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;EpisodeID : INT NN" vertex="1">
+        <mxCell id="c60" parent="c57" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="FK&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;EpisodeID" vertex="1">
           <mxGeometry height="24" width="300" y="74" as="geometry" />
         </mxCell>
-        <mxCell id="c61" parent="c57" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Watched At : DATETIME2(0) NN" vertex="1">
+        <mxCell id="c61" parent="c57" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Watched At" vertex="1">
           <mxGeometry height="24" width="300" y="98" as="geometry" />
         </mxCell>
-        <mxCell id="c62" parent="c57" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Progress in Seconds : INT NN" vertex="1">
+        <mxCell id="c62" parent="c57" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Progress in Seconds" vertex="1">
           <mxGeometry height="24" width="300" y="122" as="geometry" />
         </mxCell>
-        <mxCell id="c63" parent="c57" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Is Completed : BIT NN" vertex="1">
+        <mxCell id="c63" parent="c57" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Is Completed" vertex="1">
           <mxGeometry height="24" width="300" y="146" as="geometry" />
         </mxCell>
-        <mxCell id="c64" parent="c57" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Device Type : NVARCHAR(20) NN" vertex="1">
+        <mxCell id="c64" parent="c57" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Device Type" vertex="1">
           <mxGeometry height="24" width="300" y="170" as="geometry" />
         </mxCell>
         <mxCell id="c65" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#E1D5E7;strokeColor=#9673A6;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=0;marginBottom=0;html=1;fontSize=13;" value="Studio" vertex="1">
           <mxGeometry height="146" width="300" y="904" as="geometry" />
         </mxCell>
-        <mxCell id="c66" parent="c65" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;fontStyle=5;" value="PK&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;StudioID : INT NN" vertex="1">
+        <mxCell id="c66" parent="c65" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;fontStyle=5;" value="PK&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;StudioID" vertex="1">
           <mxGeometry height="24" width="300" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="c67" parent="c65" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Name : NVARCHAR(100) NN" vertex="1">
+        <mxCell id="c67" parent="c65" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Name" vertex="1">
           <mxGeometry height="24" width="300" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="c68" parent="c65" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="FK&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;CountryID : INT NN" vertex="1">
+        <mxCell id="c68" parent="c65" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="FK&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;CountryID" vertex="1">
           <mxGeometry height="24" width="300" y="74" as="geometry" />
         </mxCell>
-        <mxCell id="c69" parent="c65" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Founded Year : SMALLINT" vertex="1">
+        <mxCell id="c69" parent="c65" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Founded Year" vertex="1">
           <mxGeometry height="24" width="300" y="98" as="geometry" />
         </mxCell>
-        <mxCell id="c70" parent="c65" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Website : NVARCHAR(255)" vertex="1">
+        <mxCell id="c70" parent="c65" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Website" vertex="1">
           <mxGeometry height="24" width="300" y="122" as="geometry" />
         </mxCell>
         <mxCell id="c71" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#E1D5E7;strokeColor=#9673A6;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=0;marginBottom=0;html=1;fontSize=13;" value="Anime" vertex="1">
           <mxGeometry height="266" width="300" x="380" y="844" as="geometry" />
         </mxCell>
-        <mxCell id="c72" parent="c71" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;fontStyle=5;" value="PK&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;AnimeID : INT NN" vertex="1">
+        <mxCell id="c72" parent="c71" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;fontStyle=5;" value="PK&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;AnimeID" vertex="1">
           <mxGeometry height="24" width="300" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="c73" parent="c71" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Title : NVARCHAR(200) NN" vertex="1">
+        <mxCell id="c73" parent="c71" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Title" vertex="1">
           <mxGeometry height="24" width="300" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="c74" parent="c71" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Original Title : NVARCHAR(200)" vertex="1">
+        <mxCell id="c74" parent="c71" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Original Title" vertex="1">
           <mxGeometry height="24" width="300" y="74" as="geometry" />
         </mxCell>
-        <mxCell id="c75" parent="c71" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="FK&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;StudioID : INT NN" vertex="1">
+        <mxCell id="c75" parent="c71" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="FK&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;StudioID" vertex="1">
           <mxGeometry height="24" width="300" y="98" as="geometry" />
         </mxCell>
-        <mxCell id="c76" parent="c71" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Release Year : SMALLINT NN" vertex="1">
+        <mxCell id="c76" parent="c71" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Release Year" vertex="1">
           <mxGeometry height="24" width="300" y="122" as="geometry" />
         </mxCell>
-        <mxCell id="c77" parent="c71" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Age Rating : NVARCHAR(10) NN" vertex="1">
+        <mxCell id="c77" parent="c71" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Age Rating" vertex="1">
           <mxGeometry height="24" width="300" y="146" as="geometry" />
         </mxCell>
-        <mxCell id="c78" parent="c71" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Synopsis : NVARCHAR(MAX)" vertex="1">
+        <mxCell id="c78" parent="c71" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Synopsis" vertex="1">
           <mxGeometry height="24" width="300" y="170" as="geometry" />
         </mxCell>
-        <mxCell id="c79" parent="c71" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Status : NVARCHAR(20) NN" vertex="1">
+        <mxCell id="c79" parent="c71" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Status" vertex="1">
           <mxGeometry height="24" width="300" y="194" as="geometry" />
         </mxCell>
-        <mxCell id="c80" parent="c71" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Average Rating : DECIMAL(3,2)" vertex="1">
+        <mxCell id="c80" parent="c71" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Average Rating" vertex="1">
           <mxGeometry height="24" width="300" y="218" as="geometry" />
         </mxCell>
-        <mxCell id="c81" parent="c71" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Rating Count : INT NN" vertex="1">
+        <mxCell id="c81" parent="c71" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Rating Count" vertex="1">
           <mxGeometry height="24" width="300" y="242" as="geometry" />
         </mxCell>
         <mxCell id="c82" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#E1D5E7;strokeColor=#9673A6;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=0;marginBottom=0;html=1;fontSize=13;" value="Season" vertex="1">
           <mxGeometry height="146" width="300" x="770" y="1064" as="geometry" />
         </mxCell>
-        <mxCell id="c83" parent="c82" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;fontStyle=5;" value="PK&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SeasonID : INT NN" vertex="1">
+        <mxCell id="c83" parent="c82" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;fontStyle=5;" value="PK&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SeasonID" vertex="1">
           <mxGeometry height="24" width="300" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="c84" parent="c82" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="FK&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;AnimeID : INT NN" vertex="1">
+        <mxCell id="c84" parent="c82" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="FK&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;AnimeID" vertex="1">
           <mxGeometry height="24" width="300" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="c85" parent="c82" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Season Number : TINYINT NN" vertex="1">
+        <mxCell id="c85" parent="c82" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Season Number" vertex="1">
           <mxGeometry height="24" width="300" y="74" as="geometry" />
         </mxCell>
-        <mxCell id="c86" parent="c82" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Title : NVARCHAR(200)" vertex="1">
+        <mxCell id="c86" parent="c82" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Title" vertex="1">
           <mxGeometry height="24" width="300" y="98" as="geometry" />
         </mxCell>
-        <mxCell id="c87" parent="c82" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Release Date : DATE NN" vertex="1">
+        <mxCell id="c87" parent="c82" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Release Date" vertex="1">
           <mxGeometry height="24" width="300" y="122" as="geometry" />
         </mxCell>
         <mxCell id="c88" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#E1D5E7;strokeColor=#9673A6;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=0;marginBottom=0;html=1;fontSize=13;" value="Episode" vertex="1">
           <mxGeometry height="194" width="300" x="1195" y="1040" as="geometry" />
         </mxCell>
-        <mxCell id="c89" parent="c88" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;fontStyle=5;" value="PK&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;EpisodeID : INT NN" vertex="1">
+        <mxCell id="c89" parent="c88" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;fontStyle=5;" value="PK&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;EpisodeID" vertex="1">
           <mxGeometry height="24" width="300" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="c90" parent="c88" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="FK&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SeasonID : INT NN" vertex="1">
+        <mxCell id="c90" parent="c88" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="FK&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SeasonID" vertex="1">
           <mxGeometry height="24" width="300" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="c91" parent="c88" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Episode Number : SMALLINT NN" vertex="1">
+        <mxCell id="c91" parent="c88" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Episode Number" vertex="1">
           <mxGeometry height="24" width="300" y="74" as="geometry" />
         </mxCell>
-        <mxCell id="c92" parent="c88" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Title : NVARCHAR(200) NN" vertex="1">
+        <mxCell id="c92" parent="c88" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Title&amp;nbsp;" vertex="1">
           <mxGeometry height="24" width="300" y="98" as="geometry" />
         </mxCell>
-        <mxCell id="c93" parent="c88" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Duration in Seconds : INT NN" vertex="1">
+        <mxCell id="c93" parent="c88" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Duration in Seconds" vertex="1">
           <mxGeometry height="24" width="300" y="122" as="geometry" />
         </mxCell>
-        <mxCell id="c94" parent="c88" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Air Date : DATE NN" vertex="1">
+        <mxCell id="c94" parent="c88" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Air Date" vertex="1">
           <mxGeometry height="24" width="300" y="146" as="geometry" />
         </mxCell>
-        <mxCell id="c95" parent="c88" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Is Premium : BIT NN" vertex="1">
+        <mxCell id="c95" parent="c88" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Is Premium" vertex="1">
           <mxGeometry height="24" width="300" y="170" as="geometry" />
         </mxCell>
         <mxCell id="c96" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#E1D5E7;strokeColor=#9673A6;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=0;marginBottom=0;html=1;fontSize=13;" value="Episode Language" vertex="1">
           <mxGeometry height="98" width="300" x="1195" y="806" as="geometry" />
         </mxCell>
-        <mxCell id="c97" parent="c96" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;fontStyle=5;" value="PK,FK EpisodeID : INT NN" vertex="1">
+        <mxCell id="c97" parent="c96" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;fontStyle=5;" value="FK EpisodeID" vertex="1">
           <mxGeometry height="24" width="300" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="c98" parent="c96" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;fontStyle=5;" value="PK,FK LanguageID : INT NN" vertex="1">
+        <mxCell id="c98" parent="c96" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;fontStyle=5;" value="FK LanguageID" vertex="1">
           <mxGeometry height="24" width="300" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="c99" parent="c96" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;fontStyle=5;" value="PK&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;TrackType : NVARCHAR(5) NN" vertex="1">
+        <mxCell id="c99" parent="c96" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;fontStyle=5;" value="PK&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;TrackType" vertex="1">
           <mxGeometry height="24" width="300" y="74" as="geometry" />
         </mxCell>
         <mxCell id="c100" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#E1D5E7;strokeColor=#9673A6;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=0;marginBottom=0;html=1;fontSize=13;" value="Genre" vertex="1">
@@ -280,31 +280,31 @@
         <mxCell id="c101" parent="c100" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;fontStyle=5;" value="PK&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;GenreID : INT NN" vertex="1">
           <mxGeometry height="24" width="300" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="c102" parent="c100" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Name : NVARCHAR(50) NN" vertex="1">
+        <mxCell id="c102" parent="c100" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Name" vertex="1">
           <mxGeometry height="24" width="300" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="c103" parent="c100" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Description : NVARCHAR(255)" vertex="1">
+        <mxCell id="c103" parent="c100" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Description" vertex="1">
           <mxGeometry height="24" width="300" y="74" as="geometry" />
         </mxCell>
         <mxCell id="c104" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#E1D5E7;strokeColor=#9673A6;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=0;marginBottom=0;html=1;fontSize=13;" value="Anime Genre" vertex="1">
           <mxGeometry height="74" width="300" x="380" y="1224" as="geometry" />
         </mxCell>
-        <mxCell id="c105" parent="c104" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;fontStyle=5;" value="PK,FK AnimeID : INT NN" vertex="1">
+        <mxCell id="c105" parent="c104" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;fontStyle=5;" value="FK AnimeID" vertex="1">
           <mxGeometry height="24" width="300" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="c106" parent="c104" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;fontStyle=5;" value="PK,FK GenreID : INT NN" vertex="1">
+        <mxCell id="c106" parent="c104" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;fontStyle=5;" value="FK GenreID" vertex="1">
           <mxGeometry height="24" width="300" y="50" as="geometry" />
         </mxCell>
         <mxCell id="c107" parent="1" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#E1D5E7;strokeColor=#9673A6;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=0;marginBottom=0;html=1;fontSize=13;" value="Language" vertex="1">
           <mxGeometry height="98" width="300" x="1195" y="640" as="geometry" />
         </mxCell>
-        <mxCell id="c108" parent="c107" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;fontStyle=5;" value="PK&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;LanguageID : INT NN" vertex="1">
+        <mxCell id="c108" parent="c107" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;fontStyle=5;" value="PK&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;LanguageID" vertex="1">
           <mxGeometry height="24" width="300" y="26" as="geometry" />
         </mxCell>
-        <mxCell id="c109" parent="c107" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Name : NVARCHAR(50) NN" vertex="1">
+        <mxCell id="c109" parent="c107" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Name" vertex="1">
           <mxGeometry height="24" width="300" y="50" as="geometry" />
         </mxCell>
-        <mxCell id="c110" parent="c107" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Code : VARCHAR(10) NN" vertex="1">
+        <mxCell id="c110" parent="c107" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=6;overflow=hidden;rotatable=0;html=1;fontSize=11;" value="&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Code" vertex="1">
           <mxGeometry height="24" width="300" y="74" as="geometry" />
         </mxCell>
         <mxCell id="c111" edge="1" parent="1" source="c33" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;startArrow=ERmandOne;endArrow=ERzeroToMany;startFill=0;endFill=0;strokeColor=#555555;startSize=12;endSize=12;" target="c38" value="">
